@@ -1,0 +1,22 @@
+<PLMInfo>
+  <Name>Shotblock Event PLM</Name>
+  <Properties>
+	<Property>
+	  <Name>Shotblock Reaction Type</Name>
+	  <Description>High Byte determines shotblock reaction type.</Description>
+	  <Mask>0xF000</Mask>
+	  <NameValues>
+	  <NameValue Name="Normal Shot" Value="0"/>
+	  <NameValue Name="Power Bomb" Value="1"/>
+	  <NameValue Name="Missile" Value="2"/>
+	  <NameValue Name="Super Missile" Value="3"/>
+	  </NameValues>
+	</Property>	  
+  	<Property>
+	  <Name>Event</Name>
+	  <Description>Low Byte determines which event is summoned.</Description>
+	  <Mask>0x00FF</Mask>
+	</Property>
+  </Properties>
+  <Offset X="0" Y="0"/>  
+</PLMInfo>
